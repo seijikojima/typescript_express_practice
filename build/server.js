@@ -8,8 +8,9 @@ const app_1 = __importDefault(require("./app"));
 const auth_route_1 = __importDefault(require("./routes/auth.route"));
 const index_route_1 = __importDefault(require("./routes/index.route"));
 const users_route_1 = __importDefault(require("./routes/users.route"));
+const pets_route_1 = __importDefault(require("./routes/pets.route"));
 const validateEnv_1 = __importDefault(require("./utils/validateEnv"));
 validateEnv_1.default();
-const app = new app_1.default([new index_route_1.default(), new users_route_1.default(), new auth_route_1.default()]);
+const app = new app_1.default([new index_route_1.default(), new users_route_1.default(), new pets_route_1.default(), new auth_route_1.default()]);
 app.listen();
 //# sourceMappingURL=server.js.map
