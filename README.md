@@ -12,6 +12,6 @@ npm run start
 ### routes
 http://localhost:3000/  
 http://localhost:3000/users/  
-http://localhost:3000/pets/
+http://localhost:3000/pets/  
 http://localhost:3000/api-docs/  
   
