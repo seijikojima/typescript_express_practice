@@ -1,0 +1,24 @@
+2021-03-11 14:01:47 info: 🚀 App listening on the port 3000
+2021-03-11 14:01:55 info: ::1 - - [11/Mar/2021:05:01:55 +0000] "GET / HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 14:01:59 info: ::1 - - [11/Mar/2021:05:01:59 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:11:22 info: ::1 - - [11/Mar/2021:10:11:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:25 info: 🚀 App listening on the port 3000
+2021-03-11 19:29:30 info: ::1 - - [11/Mar/2021:10:29:30 +0000] "GET / HTTP/1.1" 200 2 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:42 info: ::1 - - [11/Mar/2021:10:29:42 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:42 info: ::1 - - [11/Mar/2021:10:29:42 +0000] "GET /api-docs/ HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:42 info: ::1 - - [11/Mar/2021:10:29:42 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:42 info: ::1 - - [11/Mar/2021:10:29:42 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:42 info: ::1 - - [11/Mar/2021:10:29:42 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:42 info: ::1 - - [11/Mar/2021:10:29:42 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:43 info: ::1 - - [11/Mar/2021:10:29:43 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:53 info: ::1 - - [11/Mar/2021:10:29:53 +0000] "GET /users HTTP/1.1" 200 460 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:29:59 info: ::1 - - [11/Mar/2021:10:29:59 +0000] "GET /users HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:30:18 error: StatusCode : 400, Message : email must be an email
+2021-03-11 19:30:18 info: ::1 - - [11/Mar/2021:10:30:18 +0000] "POST /users HTTP/1.1" 400 36 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:30:46 error: StatusCode : 409, Message : You're not user
+2021-03-11 19:30:46 info: ::1 - - [11/Mar/2021:10:30:46 +0000] "GET /users/0 HTTP/1.1" 409 29 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:30:57 error: StatusCode : 409, Message : You're not user
+2021-03-11 19:30:57 info: ::1 - - [11/Mar/2021:10:30:57 +0000] "GET /users/12 HTTP/1.1" 409 29 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:41:31 info: 🚀 App listening on the port 3000
+2021-03-11 19:41:36 info: ::1 - - [11/Mar/2021:10:41:36 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"
+2021-03-11 19:41:42 info: ::1 - - [11/Mar/2021:10:41:42 +0000] "GET /users HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.192 Safari/537.36"

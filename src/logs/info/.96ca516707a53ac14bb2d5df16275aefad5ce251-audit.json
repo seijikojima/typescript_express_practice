@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "/Users/sabosan/src_new/ts_express/src/logs/info/.96ca516707a53ac14bb2d5df16275aefad5ce251-audit.json",
+    "files": [
+        {
+            "date": 1615457930074,
+            "name": "/Users/sabosan/src_new/ts_express/src/logs/info/2021-03-11.log",
+            "hash": "2810b63c1a25fc359c77b3618150a307"
+        }
+    ]
+}
